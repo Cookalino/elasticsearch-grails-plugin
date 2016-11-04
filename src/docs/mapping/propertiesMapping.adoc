@@ -16,6 +16,10 @@ static searchable = {
 |===
 | Option Name | Values | Description
 
+| analyzer 
+| String
+| The name of the analyzer to use when indexing this property.
+
 | boost 
 | Number 
 | A decimal boost value. With a positive value, promotes search results for hits in this property; with a negative value, demotes search results that hit this property.
